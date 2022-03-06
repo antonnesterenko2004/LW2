@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>ЛР2  Завдання 2</title>
+    <meta charset="UTF-8">
+    <title>ЛР2 Завдання 2</title>
   </head>
   <body>
-    <header>
-            <nav style="width:1440px;margin: 0 auto">
-                <ul style="margin:0; padding:0;list-style:none;height:50px;">
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"href="index.html">LEMON WARES</a> </li>
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"href="">Our services</a></li>
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"href="">About</a></li>
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"href="">Blog and News</a></li>
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"href="">Account</a></li>
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"href="">lemonwares@mail</a></li>
-                <li style="float:left"><a style="color:black;display: block;height:50px;padding:0 30px;text-decoration:none;"  href="">1234567890</a></li>
+    <header class="header">
+            <nav>
+                <ul>
+                <li><a style="color:black;display: block;"href="index.html">LEMON WARES</a> </li>
+                <li><a href="">Our services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog and News</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="">lemonwares@mail</a></li>
+                <li><a href="">1234567890</a></li>
                 </ul>
                 
             </nav>
-            
-
+    </header>
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.header nav{
+width:1440px; 
+margin:0 auto;
+}
+.header nav ul { 
+margin:0; 
+padding:0 30px;
+list-style:none;
+height:50px;
+}
+.header nav ul li {
+float: left;
+}
+header nav ul li a{
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+.header ul li a {
+color: black;
+display: block;
+height:50px;
+padding:0 30px;
+text-decoration:none;
+}
 .img-container {
-    text-align: сenter;
+    text-align:сenter;
     }
     .article{
     font-size: xx-large;
@@ -33,15 +57,19 @@
     width:1336px;
     justify-content:space-between;
     text-align:left;
-    padding-left:50px;
+    padding-left: 50px;
+
     }
     .article-2{
       font-family: Poppins;
       font-size: medium;
+      padding-left: 10px;
+
     }
     .article-2-1{
       font-family: Poppins;
       font-size: x-large;
+      margin-left: 50px;
     }
   .small-article{
     font-family: Inter;
@@ -54,32 +82,68 @@
 	background:#ffffff;
   font-family: Poppins;
   text-align: center;
-  ;
+  margin-top: 100px;
+  margin-bottom: 100px;
   
 }
-.rates-colls{
+.rates-cols{
   columns: 3;
-  margin: auto;
+  margin-top:100px;
+  font-size: large;
+  font-family: Poppins;
+  text-align: center;
+text-decoration: none;
+width: 100%;
+
 }
+.rates-cols a{
+text-align: center;
+text-decoration: none;
+color: black;
+}
+.rates{
+  text-align: center;
+  font-family: Poppins;
+  font-size: large; 
+}
+.adds{
+  text-align: center;
+  font-family: Poppins;
+  font-size: xx-large;
+  margin: bottom 100px;
+}
+.add{
+  text-align: center;
+  font-family: Poppins;
+  font-size: medium;
+  margin-bottom: 100px;
+}
+
 .redbutton{
 background: red;
 color: white;
 }
-footer{
+.buttons{
+background-color:red; 
+color: white;
+font-family: Poppins;}
+.footer{
     display: inline-flex;
-    background-color: red;
+    background: red;
+    color: #ffffff;
+    width: 100%;
+
+}
+.footer div{
     color: #ffffff;
 }
-footer div{
-    color: #ffffff;
-}
-footer ul{
+.footer ul{
     display: flex; 
     justify-content: space-between; 
-    width: 1280px;
+    width: 100%;
     color: #ffffff;
 }
-footer ul li a{
+.footer ul li a{
   color: #ffffff;
   text-decoration: none;
 }
@@ -96,27 +160,29 @@ div{
 }
   </style>
   <article class="article">
-    <div>
-        <h1>Premium Web<br> Hosting for <br>Your Website</h1>
+    
+        <div><h1>Premium Web<br> Hosting for <br>Your Website</h1>
         <p class="small-article"><small>Blazing fast web hosting for individuals and <br>businesses of all sizes backed by 24x7x365
                 Support.</small></p>
         <button class="redbutton">Create an Account</button>
         <button>Choose your plan</button>
     </div>
     <div>
-        <img class="img-container" src="images\1.png" alt="" width="504" height="501">
+        <img class="img-container" src="images/1.png" alt="" width="504" height="501">
     </div>
 </article>
 <div class="article-2">
     <div class="article-2-1">
     True Cloud Web Hosting
     </div>
+    <div class="article-2">
     <p>
       True Cloud Web Hosting All of the hosting packages we offer are <br />
       deployed instantly on our SSD powered cloud. We don’t use <br />
       dedicated servers that operate on single pieces of hardware. Our <br />
       entire infrastructure is built to be reliable, secure, and scalable.
     </p>
+    </div>
 </div>
     <div class="textcols">
               99.9% Uptime
@@ -149,123 +215,103 @@ div{
               </p>
 
   </div>
-
-    <p align="center">
+<div class="adds">
+    <p>
       <strong
-        ><font size="10"
-          >Ready to get started with<br />
-          Lemon Wares?</font
-        ></strong
+          >Ready to get started with<br>
+          Lemon Wares?
+      </strong
       >
     </p>
-    <p align="center">
-      <font size="5" face="garamond">Choose the package that suits you</font>
+</div>
+<div class="add"> 
+    <p>
+     Choose the package that suits you
     </p>
-    <div align="center">
-      <font size="5" face="garamond">Monthly</font>
-      <font size="5" face="garamond">Yearly</font>
-    </div>
-
-      <div align="center">
-      <font size="5"><strong>Basic     </strong></font>
-      <font size="5"><strong>Premium</strong></font><br>
+</div>
+<div class="adds"> 
+      <strong>Montly</strong>
+      <strong>Yearly</strong><br>
+</div>    
+<div class="adds">
+      <strong>Basic</strong>
+      <strong>Premium</strong><br>
       </div>
-    <div align= "center" class="rates-colls">
+    <div class="rates-cols">
     <strong>Starter</strong><br>
     with all your customers via all<br />
     conversation channels in one central<br />
     dashboard.<br />
-    <font size="3"><strong>$2.80</strong></font
-    ><br>
+    <strong>$2.80</strong>
+    <br>
     Per month<br />
-    <table>
-      <td bgcolor="white">
-        <a href="" target="_blank"
-          ><font color="black">Choose this plan</font></a
-        >
-      </td>
-    </table>
-    <ul>
-      <li>2GB SSD</li>
-      <li>10GB Bandwidth</li>
-      <li>15 Email Accounts</li>
-      <li>Unlimited Database</li>
-      <li>4 Subdomains</li>
-      <li>1 Parked Domain</li>
-      <li>2 Websites</li>
-      <li>Free SSL</li>
-      <li>Softaculous</li>
-    </ul>
+    <button class="buttons"><a href="">Choose this plan</a></button>
+    <p>2GB SSD</p>
+      <p>10GB Bandwidth</p>
+      <p>15 Email Accounts</p>
+      <p>Unlimited Database</p>
+      <p>4 Subdomains</p>
+      <p>1 Parked Domain</p>
+      <p>2 Websites</p>
+      <p>Free SSL</p>
+      <p>Softaculous</p>
 
     <strong>Standard</strong><br>
     with all your customers via all<br />
     conversation channels in one central<br>
-    dashboard.<br />
-    <font size="3"><strong>$4.20</strong></font
-    ><br>
-    Per month<br />
-    <table>
-      <td bgcolor="white">
-        <a href="" target="_blank"
-          ><font color="black">Choose this plan</font></a
-        >
-      </td>
-    </table>
-    <ul { list-style:none }>
-      <li>2GB SSD</li>
-      <li>10GB Bandwidth</li>
-      <li>15 Email Accounts</li>
-      <li>Unlimited Database</li>
-      <li>4 Subdomains</li>
-      <li>1 Parked Domain</li>
-      <li>2 Websites</li>
-      <li>Free SSL</li>
-      <li>Softaculous</li>
-    </ul>
+    dashboard.<br>
+    <strong>$4.20</strong>
+    <br>
+    Per month<br>
+        <button class="buttons"><a href=""
+          >Choose this plan</a
+        ></button>
+        <p>2GB SSD</p>
+        <p>10GB Bandwidth</p>
+        <p>15 Email Accounts</p>
+        <p>Unlimited Database</p>
+        <p>4 Subdomains</p>
+        <p>1 Parked Domain</p>
+        <p>2 Websites</p>
+        <p>Free SSL</p>
+        <p>Softaculous</p>
 
-    <strong>Suprem</strong><br />
-    with all your customers via all<br />
-    conversation channels in one central<br />
+    <strong>Suprem</strong><br>
+    with all your customers via all<br>
+    conversation channels in one central<br>
     dashboard.<br />
-    <font size="3"><strong>$7.00</strong></font
-    ><br />
+    <strong>$7.00</strong><br />
     Per month<br />
-    <table>
-      <td bgcolor="white">
-        <a href="" target="_blank"
-          ><font color="black">Choose this plan</font></a
-        >
-      </td>
-    </table>
-    <ul>
-      <li>2GB SSD</li>
-      <li>10GB Bandwidth</li>
-      <li>15 Email Accounts</li>
-      <li>Unlimited Database</li>
-      <li>4 Subdomains</li>
-      <li>1 Parked Domain</li>
-      <li>2 Websites</li>
-      <li>Free SSL</li>
-      <li>Softaculous</li>
-    </ul>
+        <button class="buttons"><a href=""
+          >Choose this plan</a
+        ></button>
+      <p>2GB SSD</p>
+      <p>10GB Bandwidth</p>
+      <p>15 Email Accounts</p>
+      <p>Unlimited Database</p>
+      <p>4 Subdomains</p>
+      <p>1 Parked Domain</p>
+      <p>2 Websites</p>
+      <p>Free SSL</p>
+      <p>Softaculous</p>
     </div>
-    <p align="center">
-      <font size="10"
-        >We're here to make your<br />
-        website awesome.</font
-      >
+    <div class="adds"><p>
+      
+        We're here to make your<br />
+        website awesome.
+  
     </p>
+    </div>
     <table>
-      <td bgcolor="red">
+      
         <a href="" target="_blank"
-          ><font color="white">Get in touch with us</font></a
+          >Get in touch with us</a
         >
-      </td>
     </table>
     <br>
-    <footer>
+    <footer class="footer">
       <div>
-          <img src="images/2.png" width="120px" height="80px" /></a
+          <img src="images/2.png" width="120px" height="80px"></a
           ><br>
           Lorem ipsum dolor sit amet,<br>
           consectetur adipiscing elit ut aliquam,<br>
