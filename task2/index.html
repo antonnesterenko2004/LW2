@@ -3,192 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <title>ЛР2 Завдання 2</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-      .header nav {
-        width: 1440px;
-        margin: 0 auto;
-      }
-      .header nav ul {
-        margin: 0;
-        padding: 0 30px;
-        list-style: none;
-        height: 50px;
-      }
-      .header nav ul li {
-        float: left;
-      }
-      header nav ul li a {
-        color: black;
-        display: block;
-        text-decoration: none;
-      }
-      .header ul li a {
-        color: black;
-        display: block;
-        height: 50px;
-        padding: 0 30px;
-        text-decoration: none;
-      }
-      .img-container {
-        text-align: сenter;
-      }
-      .article {
-        font-size: xx-large;
-        font-family: Poppins;
-        display: flex;
-        width: 1336px;
-        justify-content: space-between;
-        text-align: left;
-        padding-left: 50px;
-      }
-      .article-2 {
-        font-family: Poppins;
-        font-size: medium;
-        padding-left: 10px;
-      }
-      .article-2-1 {
-        font-family: Poppins;
-        font-size: x-large;
-        margin-left: 50px;
-      }
-      .small-article {
-        font-family: Inter;
-        font-size: medium;
-        color: #808080;
-      }
-      .textcols {
-        column-count: 4;
-        column-gap: 5%;
-        background: #ffffff;
-        font-family: Poppins;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
-      }
-      .rates-cols {
-        columns: 3;
-        margin-top: 100px;
-        font-size: large;
-        font-family: Poppins;
-        text-align: center;
-        text-decoration: none;
-        width: 100%;
-      }
-      .rates-cols a {
-        text-align: center;
-        text-decoration: none;
-        color: black;
-      }
-      .rates {
-        text-align: center;
-        font-family: Poppins;
-        font-size: large;
-      }
-      .adds {
-        text-align: center;
-        font-family: Poppins;
-        font-size: xx-large;
-        margin: bottom 100px;
-      }
-      .add {
-        text-align: center;
-        font-family: Poppins;
-        font-size: medium;
-        margin-bottom: 100px;
-        text-decoration: none;
-      }
-      .add a {
-        text-decoration: none;
-        color: black;
-      }
-
-      .redbutton {
-        background: red;
-        color: white;
-      }
-      .buttons {
-        background-color: red;
-        color: white;
-        font-family: Poppins;
-      }
-      .footer {
-        display: inline-flex;
-        background: red;
-        color: #ffffff;
-        width: 100%;
-      }
-      .footer div {
-        color: #ffffff;
-      }
-      .footer ul {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        color: #ffffff;
-      }
-      .footer ul li a {
-        color: #ffffff;
-        text-decoration: none;
-      }
-
-      li {
-        list-style: none;
-        font-family: Poppins;
-      }
-      h1 {
-        font-family: Inter;
-      }
-      div {
-        align-items: center;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href='css/styles.css' />
   </head>
-  <body>
-    <header class="header">
-      <nav>
-        <ul>
-          <li>
-            <a style="color: black; display: block" href="index.html"
-              >LEMON WARES</a
-            >
-          </li>
-          <li><a href="">Our services</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Blog and News</a></li>
-          <li><a href="">Account</a></li>
-          <li><a href="">lemonwares@mail</a></li>
-          <li><a href="">1234567890</a></li>
-        </ul>
-      </nav>
+  <body class="body">
+    <header class="head container">
+      <div class="header__container">
+        <nav>
+          <!-- <p><a href="lab2_2.html">Логотип</a> </p> -->
+          <div class = "im">
+            <img src="images/1.png" alt="Picture" />
+          </div>
+          <p class="header__p"><a href="">Our services</a></p>
+          <p><a href="">About</a></p>
+          <p><a href="">Blog and News</a></p>
+          <p class="header__p"><a href="">Contact</a></p>
+          <p><a href="">Account</a></p>
+        </nav>
+        <div>mail@mail.com | +1234567890</div>
+      </div>
     </header>
-
-    <article class="article">
-      <div>
-        <h1>
-          Premium Web<br />
-          Hosting for <br />Your Website
-        </h1>
-        <p class="small-article">
-          <small
-            >Blazing fast web hosting for individuals and <br />businesses of
-            all sizes backed by 24x7x365 Support.</small
-          >
-        </p>
-        <button class="redbutton">Create an Account</button>
-        <button>Choose your plan</button>
-      </div>
-      <div>
-        <img
-          class="img-container"
-          src="images/1.png"
-          alt=""
-          width="504"
-          height="501"
-        />
-      </div>
-    </article>
+    <div class="container">
+      <article class="article">
+        <div>
+          <h1>
+            Premium Web<br />
+            Hosting for <br />Your Website
+          </h1>
+          <p class="small-article">
+            <small
+              >Blazing fast web hosting for individuals and <br />businesses of
+              all sizes backed by 24x7x365 Support.</small
+            >
+          </p>
+          <button class="button">Create an Account</button>
+          <button class="button">Choose your plan</button>
+        </div>
+        <div>
+          <img
+            class="img-container"
+            src="images/2.png"
+            alt=""
+            width="504"
+            height="501"
+          />
+        </div>
+      </article>
+    </div>
     <div class="article-2">
       <div class="article-2-1">True Cloud Web Hosting</div>
       <div class="article-2">
@@ -201,6 +61,7 @@
         </p>
       </div>
     </div>
+  </div>
     <div class="textcols">
       99.9% Uptime
       <p>
@@ -253,59 +114,76 @@
       <strong>Basic</strong>
       <strong>Premium</strong><br />
     </div>
-    <div class="rates-cols">
-      <strong>Starter</strong><br />
-      with all your customers via all<br />
-      conversation channels in one central<br />
-      dashboard.<br />
-      <strong>$2.80</strong><br />
-      Per month<br />
-      <button class="buttons">Choose this plan</button>
-      <p>2GB SSD</p>
-      <p>10GB Bandwidth</p>
-      <p>15 Email Accounts</p>
-      <p>Unlimited Database</p>
-      <p>4 Subdomains</p>
-      <p>1 Parked Domain</p>
-      <p>2 Websites</p>
-      <p>Free SSL</p>
-      <p>Softaculous</p>
-
-      <strong>Standard</strong><br />
-      with all your customers via all<br />
-      conversation channels in one central<br />
-      dashboard.<br />
-      <strong>$4.20</strong>
-      <br />
-      Per month<br />
-      <button class="buttons">Choose this plan</button>
-      <p>2GB SSD</p>
-      <p>10GB Bandwidth</p>
-      <p>15 Email Accounts</p>
-      <p>Unlimited Database</p>
-      <p>4 Subdomains</p>
-      <p>1 Parked Domain</p>
-      <p>2 Websites</p>
-      <p>Free SSL</p>
-      <p>Softaculous</p>
-
-      <strong>Suprem</strong><br />
-      with all your customers via all<br />
-      conversation channels in one central<br />
-      dashboard.<br />
-      <strong>$7.00</strong><br />
-      Per month<br />
-      <button class="buttons">Choose this plan</button>
-      <p>2GB SSD</p>
-      <p>10GB Bandwidth</p>
-      <p>15 Email Accounts</p>
-      <p>Unlimited Database</p>
-      <p>4 Subdomains</p>
-      <p>1 Parked Domain</p>
-      <p>2 Websites</p>
-      <p>Free SSL</p>
-      <p>Softaculous</p>
+    <div class="container">
+      <ul class="list">
+        <li class="list__item">
+          <h4>Starter</h4>
+          <p class="small">
+            with all your customers via all conversation channels in one
+            central dashboard.
+          </p>
+          <p class="xBig">$2.80</p>
+          <p class="per">Per month</p>
+          <button class="button">Choose this Plan</button>
+          <ul class="gray">
+            <li>2GB SSD</li>
+            <li>10GB Bandwidth</li>
+            <li>15 Email Accounts</li>
+            <li>Unlimited Database</li>
+            <li>4 Subdomains</li>
+            <li>1 Parked Domain</li>
+            <li>2 Websites</li>
+            <li>Free SSL</li>
+            <li>Softaculous</li>
+          </ul>
+        </li>
+        <li class="list__item">
+          <h4>Standard</h4>
+          <p class="small">
+            with all your customers via all conversation channels in one
+            central dashboard.
+          </p>
+          <p class="xBig">$4.20</p>
+          <p class="per">Per month</p>
+          <button class="button">Choose this Plan</button>
+          <ul class="gray">
+            <li>2GB SSD</li>
+            <li>10GB Bandwidth</li>
+            <li>15 Email Accounts</li>
+            <li>Unlimited Database</li>
+            <li>4 Subdomains</li>
+            <li>1 Parked Domain</li>
+            <li>2 Websites</li>
+            <li>Free SSL</li>
+            <li>Softaculous</li>
+          </ul>
+        </li>
+        
+        <li class="list__item">
+          <h4>Suprem</h4>
+          <p class="small">
+            with all your customers via all conversation channels in one
+            central dashboard.
+          </p>
+          <p class="xBig">$7.00</p>
+          <p class="per">Per month</p>
+          <button class="button">Choose this Plan</button>
+          <ul class="gray">
+            <li>2GB SSD</li>
+            <li>10GB Bandwidth</li>
+            <li>15 Email Accounts</li>
+            <li>Unlimited Database</li>
+            <li>4 Subdomains</li>
+            <li>1 Parked Domain</li>
+            <li>2 Websites</li>
+            <li>Free SSL</li>
+            <li>Softaculous</li>
+          </ul>
+        </li>
+        
+      </ul>
     </div>
+  </div>
     <div class="adds">
       <p>
         We're here to make your<br />
@@ -318,14 +196,17 @@
 
     <br />
     <footer class="footer">
-      <div>
-        <img src="images/2.png" width="120" height="80" />
+      <div class="footer">
+        <div class="footer_text">
+        <img src="images/3.svg" width="120" height="80" />
         <br />
+      <div class="footer_text">
         Lorem ipsum dolor sit amet,<br />
         consectetur adipiscing elit ut aliquam,<br />
         purus sit amet luctus venenatis, lectus<br />
         magna fringilla urna, porttitor rhoncus<br />
         dolor purus non enim praesent elem<br />
+        </div>
       </div>
       <ul>
         <li>
@@ -354,6 +235,7 @@
           <p><a href="" target="_blank">Help support</a></p>
         </li>
       </ul>
+    </div>
     </footer>
   </body>
 </html>
